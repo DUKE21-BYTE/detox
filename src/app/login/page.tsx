@@ -47,7 +47,7 @@ export default function LoginPage() {
             <div className="w-full max-w-md bg-card border border-border/50 shadow-xl shadow-primary/5 rounded-3xl p-8 md:p-12">
                 <div className="text-center mb-10">
                     <Link href="/" className="text-2xl font-bold flex items-center justify-center gap-2 text-primary mb-4">
-                        MindfulScreen
+                        Oasis
                     </Link>
                     <h1 className="text-2xl font-bold mb-2">Welcome Back</h1>
                     <p className="text-muted-foreground">Sign in to save your progress across devices.</p>
@@ -69,8 +69,8 @@ export default function LoginPage() {
 
                     {message && (
                         <div className={`p-4 rounded-xl text-sm ${message.type === 'success'
-                                ? 'bg-green-50 text-green-700 border border-green-200'
-                                : 'bg-red-50 text-red-700 border border-red-200'
+                            ? 'bg-green-50 text-green-700 border border-green-200'
+                            : 'bg-red-50 text-red-700 border border-red-200'
                             }`}>
                             {message.text}
                         </div>

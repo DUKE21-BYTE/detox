@@ -24,7 +24,7 @@ export function Navigation() {
                     <div className="h-8 w-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary font-bold">
                         M
                     </div>
-                    <span className="font-bold text-lg tracking-tight">MindfulScreen</span>
+                    <span className="font-bold text-lg tracking-tight">Oasis</span>
                 </div>
 
                 <div className="space-y-1">

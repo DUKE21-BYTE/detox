@@ -8,7 +8,7 @@ export default function Home() {
       <header className="px-6 h-16 flex items-center justify-between border-b border-border/40 backdrop-blur-sm sticky top-0 z-50">
         <div className="flex items-center gap-2 font-semibold text-xl tracking-tight text-primary">
           <Wind className="w-6 h-6" />
-          <span>MindfulScreen</span>
+          <span>Oasis</span>
         </div>
         <nav className="flex items-center gap-6 text-sm font-medium text-muted-foreground">
           <Link href="#features" className="hover:text-primary transition-colors">
@@ -86,7 +86,7 @@ export default function Home() {
       </main>
 
       <footer className="py-8 px-6 text-center text-muted-foreground text-sm border-t border-border/40">
-        <p>&copy; {new Date().getFullYear()} MindfulScreen. Built for well-being.</p>
+        <p>&copy; {new Date().getFullYear()} Oasis. Built for well-being.</p>
       </footer>
     </div>
   );

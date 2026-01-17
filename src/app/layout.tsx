@@ -9,7 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Detox & Well-Being Coach",
+  title: "Oasis | Digital Detox & Well-Being",
   description: "Reclaim your time and attention with a calm, supportive coach.",
 };
 

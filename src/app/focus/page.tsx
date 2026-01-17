@@ -97,7 +97,7 @@ export default function FocusPage() {
             {/* Header / Exit */}
             <div className="absolute top-6 left-6 right-6 flex justify-between items-center z-10">
                 <Link href="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors pt-2">
-                    MindfulScreen
+                    Oasis
                 </Link>
                 {isActive && (
                     <button
