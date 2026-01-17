@@ -61,7 +61,7 @@ export default function OnboardingPage() {
                         id: session.user.id,
                         full_name: name,
                         primary_goal: selectedGoal,
-                        risk_times: selectedApps, // Note: Schema expects text[], ensure this matches
+                        risk_times: selectedRisks,
                         daily_goal_minutes: dailyGoal,
                         updated_at: new Date().toISOString(),
                     });
