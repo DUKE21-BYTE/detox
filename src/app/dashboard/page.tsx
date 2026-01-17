@@ -109,7 +109,7 @@ export default function DashboardPage() {
                             <Zap className="w-5 h-5 fill-current" />
                             Focus Mode
                         </Link>
-                        <Link href="/insights" className="flex-1 bg-card text-foreground border border-border h-12 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-secondary/30 transition-colors">
+                        <Link href="/dashboard/insights" className="flex-1 bg-card text-foreground border border-border h-12 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-secondary/30 transition-colors">
                             <Activity className="w-5 h-5" />
                             Insights
                         </Link>
