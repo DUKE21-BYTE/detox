@@ -10,7 +10,15 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Oasis | Digital Detox & Well-Being",
-  description: "Reclaim your time and attention with a calm, supportive coach.",
+  description: "Reclaim your time from screen addiction. A calm, supportive companion for digital well-being.",
+  applicationName: "Oasis",
+  keywords: ["digital detox", "screen time", "wellbeing", "focus app", "oasis", "phone addiction"],
+  openGraph: {
+    title: "Oasis - Reclaim Your Time",
+    description: "Your calm companion for digital well-being.",
+    siteName: "Oasis",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
